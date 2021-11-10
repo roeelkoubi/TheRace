@@ -164,7 +164,7 @@ public class Game_activity extends AppCompatActivity {
             }
         }
 
-        private void vibrate() {
+        private void vibrate() { // Toast
             Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
             v.vibrate(VibrationEffect.createOneShot(500, VibrationEffect.DEFAULT_AMPLITUDE));
         }
