@@ -169,7 +169,7 @@ public class Game_activity extends AppCompatActivity {
             v.vibrate(VibrationEffect.createOneShot(500, VibrationEffect.DEFAULT_AMPLITUDE));
         }
 
-        private void restartGame() {
+        private void restartGame() { // making the game endless and visible/or not hearts
             hearts_counter = 2;
             hearts[0].setVisibility(View.VISIBLE);
             hearts[1].setVisibility(View.VISIBLE);
