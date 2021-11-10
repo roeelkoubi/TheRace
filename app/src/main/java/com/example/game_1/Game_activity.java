@@ -22,7 +22,6 @@ public class Game_activity extends AppCompatActivity {
 
         private int spongebob_area = C;
         private ImageButton leftArrow, rightArrow;
-        private boolean hitFlag = false;
         private int hearts_counter = 2;
 
         private ImageView[][] jellyfish;
