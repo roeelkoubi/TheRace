@@ -35,7 +35,7 @@ public class Game_activity extends AppCompatActivity {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.game_activity);
             hideSystemUI();
-            initViews();
+            viewsProcess();
 
             rightArrow.setOnClickListener(v -> {
                 if (spongebob_area < right) {
@@ -85,7 +85,7 @@ public class Game_activity extends AppCompatActivity {
 
             private void setJellyfish() {
             clock++;
-            hideExplosions();
+            exlposionsVisbility();
             for (int i = 0; i < 3; i++) {
                 if  (jellyfish[5][i].getVisibility() == View.VISIBLE) {
                     jellyfish[5][i].setVisibility(View.GONE);
@@ -114,7 +114,7 @@ public class Game_activity extends AppCompatActivity {
                 HittingJellyFish();
         }
 
-        private void hideExplosions() {
+        private void exlposionsVisbility() {
             explosions[L].setVisibility(View.GONE);
             explosions[C].setVisibility(View.GONE);
             explosions[right].setVisibility(View.GONE);
@@ -192,7 +192,7 @@ public class Game_activity extends AppCompatActivity {
             timer.cancel();
         }
 
-        private void initViews() {
+        private void viewsProcess() {
             jellyfish = new ImageView[6][3];
             explosions = new ImageView[3];
             spongebob = new ImageView[3];
