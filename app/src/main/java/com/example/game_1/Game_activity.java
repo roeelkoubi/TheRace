@@ -16,7 +16,7 @@ import java.util.TimerTask;
 public class Game_activity extends AppCompatActivity {
 
         private static final int DELAY = 1000;
-        private final int L = 0, C = 1, right = 2; // right is the R cause we already have R in the system
+        private final int L = 0, C = 1, right = 2; // right is not R cause we already have R in the system
         private int clock = 0;
         private Timer timer;
 
