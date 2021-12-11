@@ -13,7 +13,7 @@
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/background" />
 
-    <TextView
+    <Button
         android:id="@+id/titleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -23,7 +23,7 @@
         android:textSize="50sp"
         android:textStyle="bold" />
 
-    <TextView
+    <Button
         android:id="@+id/playButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -33,6 +33,29 @@
         android:textSize="50sp"
         android:textStyle="bold" />
 
+    <Button
+        android:id="@+id/SensorMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="160dp"
+        android:text="Sensors Mode"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tableScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="215dp"
+        android:text="Score Table"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
 
 </RelativeLayout>
